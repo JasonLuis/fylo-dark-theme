@@ -1101,6 +1101,16 @@
   resolved "https://registry.yarnpkg.com/@planetscale/database/-/database-1.6.0.tgz#f0f602e9067acb4023b4468f65dad2d5a6accca2"
   integrity sha512-eb02567S706Xme/nVwx+EN/wyoHhHBXl1a7+67R/Xm91myEpLn0vZNl58TvLZztBxje4gga16lc8dLt0elNrJA==
 
+"@quasar/extras@^1.15.11":
+  version "1.15.11"
+  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.15.11.tgz#a54d60b14446b850a1e5fccab3f381a2e447a73f"
+  integrity sha512-EEXL10EJQmL9jNs5fp0Kd/nyonG8hTODolj+qpYNPG3qEEoy3txr05Pdmp9qJYaXIzP9rOS9FGhFe9Mnq6MBBg==
+
+"@quasar/vite-plugin@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@quasar/vite-plugin/-/vite-plugin-1.3.0.tgz#c399b00d40c4a40aadb0e90a8e9116d72379d339"
+  integrity sha512-wd7b/QrKu/WB53l+vxo6GLbkoEwh5FFKLtLl3fM8TXrDDRB1qsKKkRa/vwTU4dpuyBaOZDjycmYuAsOlTdNp8w==
+
 "@rollup/plugin-alias@^4.0.3":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-alias/-/plugin-alias-4.0.3.tgz#571f6fb26387df91d0363905a7fd835757727ae2"
@@ -1928,7 +1938,7 @@ chardet@^0.7.0:
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==
 
-chokidar@^3.5.1, chokidar@^3.5.3:
+"chokidar@>=3.0.0 <4.0.0", chokidar@^3.5.1, chokidar@^3.5.3:
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.3.tgz#1cf37c8707b932bd1af1ae22c0432e2acd1903bd"
   integrity sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==
@@ -5121,6 +5131,11 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.3.0.tgz#f67fa67c94da8f4d0cfff981aee4118064199b8f"
   integrity sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==
 
+quasar@^2.11.7:
+  version "2.11.7"
+  resolved "https://registry.yarnpkg.com/quasar/-/quasar-2.11.7.tgz#0371d2cbe299305a0949332d2a3fc6929a70e2f6"
+  integrity sha512-OzDwYfoSwZbwqfNWz9Bfn1mhGE8YMxpTLhPvVkQU87ePF6qFj4aWttcTUifXITKldOAZziN1Mmv8VLQyITHwiw==
+
 querystringify@^2.1.1:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
@@ -5365,6 +5380,13 @@ safe-regex@^2.1.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+
+sass@1.32.12:
+  version "1.32.12"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.32.12.tgz#a2a47ad0f1c168222db5206444a30c12457abb9f"
+  integrity sha512-zmXn03k3hN0KaiVTjohgkg98C3UowhL1/VSGdj4/VAAiMKGQOE80PFPxFP2Kyq0OUskPKcY5lImkhBKEHlypJA==
+  dependencies:
+    chokidar ">=3.0.0 <4.0.0"
 
 sax@>=0.6.0:
   version "1.2.4"
